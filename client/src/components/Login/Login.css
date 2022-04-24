@@ -1,0 +1,65 @@
+
+
+
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('https://wallpaperaccess.com/full/869.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.loginTitle{
+    font-size: 50px;
+
+    
+}
+
+.loginForm{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+
+}
+
+.loginForm > label{
+    margin: 10px 0px;
+}
+
+.loginInput{
+    padding: 10px;
+    width: 300px;
+    background-color: white;
+    border: none;
+}
+
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #F39C12 ;
+    color: black;
+    font-size: 18px;
+    border-radius: 10px;
+    border:none;
+    padding: 10px;
+}
+
+.loginButton:disabled{
+    cursor: not-allowed;
+    background-color: black;
+    color: white;
+}
+
+.loginRegisterButton{
+   position: absolute;
+   top: 60px;
+   background-color: #2ECC71 ;
+   right: 20px;
+   border: none;
+   cursor: pointer;
+   padding: 10px;
+   border-radius: 10px;
+}
